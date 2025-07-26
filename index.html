@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#2563eb" />
+    <meta
+      name="description"
+      content="Steganography app for hiding and extracting secret messages within images using advanced steganography techniques"
+    />
+    <meta name="keywords" content="steganography, image encryption, secret messages, text hiding, image processing" />
+    <meta name="author" content="Steganography App" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Steganography App" />
+    <meta property="og:description" content="Hide and extract secret messages within images using steganography" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Steganography App" />
+    <meta name="twitter:description" content="Hide and extract secret messages within images using steganography" />
+    
+    <title>Steganography App - Hide Secret Messages in Images</title>
+    
+    <!-- Preconnect to external domains for better performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    
+    <!-- Manifest for PWA -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  </head>
+  <body>
+    <noscript>
+      <div style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        text-align: center;
+        padding: 20px;
+      ">
+        <div>
+          <h1 style="font-size: 2rem; margin-bottom: 1rem;">Steganography App</h1>
+          <p style="font-size: 1.1rem; opacity: 0.9;">
+            You need to enable JavaScript to run this application.
+          </p>
+          <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 1rem;">
+            This app uses React and requires JavaScript to function properly.
+          </p>
+        </div>
+      </div>
+    </noscript>
+    
+    <!-- React App Root -->
+    <div id="root"></div>
+    
+    <!-- Loading indicator for React app -->
+    <div id="loading" style="
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+      transition: opacity 0.3s ease;
+    ">
+      <div style="text-align: center; color: white;">
+        <div style="
+          width: 50px;
+          height: 50px;
+          border: 3px solid rgba(255,255,255,0.3);
+          border-top: 3px solid white;
+          border-radius: 50%;
+          animation: spin 1s linear infinite;
+          margin: 0 auto 1rem;
+        "></div>
+        <h2 style="margin: 0; font-size: 1.5rem;">Loading Steganography App...</h2>
+        <p style="margin: 0.5rem 0 0; opacity: 0.8;">Preparing secure image processing</p>
+      </div>
+    </div>
+    
+    <style>
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      
+      /* Hide loading screen when React app loads */
+      .app-loaded #loading {
+        opacity: 0;
+        pointer-events: none;
+      }
+    </style>
+    
+    <script>
+      // Hide loading screen when React app is ready
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          document.body.classList.add('app-loaded');
+        }, 1000);
+      });
+    </script>
+  </body>
+</html>
