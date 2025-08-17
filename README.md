@@ -14,7 +14,7 @@ A modern web application built with React and Tailwind CSS that allows users to 
 
 ## 🚀 Live Demo
 
-[View the live application](https://IamPrachu7.github.io/steganography-app)
+[View the live application](https://imagesteganography.onrender.com/)
 
 ## 🛠️ Technologies Used
 
