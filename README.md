@@ -14,7 +14,7 @@ A modern web application built with React and Tailwind CSS that allows users to 
 
 ## 🚀 Live Demo
 
-[View the live application](https://your-github-username.github.io/steganography-app)
+[View the live application](https://IamPrachu7.github.io/steganography-app)
 
 ## 🛠️ Technologies Used
 
@@ -35,7 +35,7 @@ A modern web application built with React and Tailwind CSS that allows users to 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/steganography-app.git
+   git clone https://github.com/IamPrachu7/steganography-app.git
    cd steganography-app
    ```
 
