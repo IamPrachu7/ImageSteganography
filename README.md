@@ -14,7 +14,7 @@ A modern web application built with React and Tailwind CSS that allows users to 
 
 ## 🚀 Live Demo
 
-[View the live application](https://imagesteganography.onrender.com/)
+[View the live application](https://imgsteganography.vercel.app/)
 
 ## 🛠️ Technologies Used
 
@@ -149,9 +149,6 @@ npm run build
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
