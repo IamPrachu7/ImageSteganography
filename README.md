@@ -2,6 +2,13 @@
 
 A modern web application built with React and Tailwind CSS that allows users to hide and extract secret messages within images using steganography techniques.
 
+
+[![License](https://img.shields.io/github/license/IamPrachu7/ImageSteganography)](./LICENSE)
+![Stars](https://img.shields.io/github/stars/IamPrachu7/ImageSteganography?style=social)
+![Forks](https://img.shields.io/github/forks/IamPrachu7/ImageSteganography?style=social)
+
+---
+
 ## ✨ Features
 
 - **🔒 Text Hiding**: Hide secret messages within images using LSB (Least Significant Bit) steganography
@@ -12,9 +19,14 @@ A modern web application built with React and Tailwind CSS that allows users to 
 - **📥 Download Support**: Download processed images as PNG files
 - **⚡ Real-time Processing**: Instant image processing with canvas API
 
+---
+
 ## 🚀 Live Demo
 
-[View the live application](https://imgsteganography.vercel.app/)
+👉 [View the live application](https://imgsteganography.vercel.app/)
+
+[![Live Demo](https://img.shields.io/badge/Demo-Vercel-blue?logo=vercel)](https://imgsteganography.vercel.app/)
+
 
 ## 🛠️ Technologies Used
 
@@ -157,13 +169,19 @@ npm run build
 - **CryptoJS** for the encryption functionality
 - **HTML5 Canvas API** for image processing capabilities
 
+## 📜 License
+
+👉 This project is licensed under the [MIT License](https://github.com/IamPrachu7/ImageSteganography/blob/main/LICENSE)
+
+
 ## 📞 Support
 
 If you have any questions or issues, please:
 
-1. Check the [Issues](https://github.com/IamPrachu7/steganography-app/issues) page
+1. Check the [Issues](https://github.com/IamPrachu7/ImageSteganography/issues) page
 2. Create a new issue if your problem isn't already listed
 3. Contact the maintainer for urgent issues
+
 
 ---
 
