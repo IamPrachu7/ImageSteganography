@@ -23,10 +23,12 @@ A modern web application built with React and Tailwind CSS that allows users to 
 
 ## 🚀 Live Demo
 
-👉 [View the live application](https://imgsteganography.vercel.app/)
+👉 <a href="https://imgsteganography.vercel.app/" target="_blank">View the live application</a>
 
-[![Live Demo](https://img.shields.io/badge/Demo-Vercel-blue?logo=vercel)](https://imgsteganography.vercel.app/)
 
+<a href="https://imgsteganography.vercel.app/" target= "_blank">
+   <img src="https://img.shields.io/badge/Demo-Vercel-blue?logo=vercel" alt="Live Demo"/>
+</a>
 
 ## 🛠️ Technologies Used
 
